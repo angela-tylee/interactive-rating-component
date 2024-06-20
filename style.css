@@ -1,0 +1,128 @@
+/* - Orange: hsl(25, 97%, 53%)
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+html, body {
+  font-size: 15px;
+  height: 100%;
+}
+
+a {
+  color: var(--orange);
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-grey);
+  font-family: "Overpass", sans-serif;
+}
+
+/* rating state */
+.rating-modal,
+.thank-you-modal {
+  height: 340px;
+  width: 320px;
+  border-radius: 30px;
+  background: radial-gradient(circle at 50% -30%, var(--dark-blue) 200px, var(--very-dark-blue));
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  color: var(--white);
+  font-weight: 400;
+}
+
+.rating-btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.rating-btn {
+  border: none;
+  border-radius: 100%;
+  background-color: hsl(219, 11%, 24%);
+  color: var(--light-grey);
+  width: 48px;
+  height: 48px;
+}
+
+.icon-star {
+  border: none;
+  border-radius: 100%;
+  background-color: hsl(219, 11%, 24%);
+  color: var(--light-grey);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-btn:hover {
+  color: var(--very-dark-blue);
+  background-color: var(--white);
+}
+.rating-btn:active {
+  color: var(--very-dark-blue);
+  background-color: var(--orange);
+}
+
+.submit-btn {
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--orange);
+  color: var(--very-dark-blue);
+  height: 40px;
+  margin-top: 2em;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.submit-btn:hover {
+  background-color: var(--white);
+}
+
+/* thank-you state */
+
+.thank-you-modal {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.thank-you-modal img{
+  width: 40%;
+}
+
+.rating-result {
+  border: none;
+  border-radius: 40px;
+  background-color: hsl(219, 11%, 24%);
+  color: var(--orange);
+  padding: 0.5em 1em;
+}
+
+footer {
+  margin-top: 1em;
+}
