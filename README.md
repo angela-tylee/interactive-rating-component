@@ -23,7 +23,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: https://github.com/angela-tylee/interactive-rating-component/edit/main/README.md
+- Solution URL: https://github.com/angela-tylee/interactive-rating-component/
 - Live Site URL: https://angela-tylee.github.io/interactive-rating-component/
 
 ## My process
