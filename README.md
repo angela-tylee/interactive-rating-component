@@ -17,11 +17,14 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### The challenge / Screenshot
 
+<img width="1256" alt="image" src="https://github.com/angela-tylee/interactive-rating-component/assets/145020731/c29dee61-222c-49bb-bade-189a6d710c0a">
+<img width="1260" alt="image" src="https://github.com/angela-tylee/interactive-rating-component/assets/145020731/e7b19a77-19c1-4602-b639-5f4efdacaedb">
+
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/angela-tylee/interactive-rating-component/edit/main/README.md
+- Live Site URL: https://angela-tylee.github.io/interactive-rating-component/
 
 ## My process
 
